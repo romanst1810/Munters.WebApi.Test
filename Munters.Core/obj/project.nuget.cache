@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "z61KUWipNTYLfLqyVadk94ITP2Tts6GtNRRrLURmZTfmn6BypcvAMUn050gzNADIJeEF6oO2VPa2M0ent9yjpw==",
+  "success": true,
+  "projectFilePath": "D:\\_00 RONAN1810@GMAIL GOOGLE DRIVE BACKUP 100GB\\28 Job Interview Works\\Munters.WebApi.Test\\Munters.Core\\Munters.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ronan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
