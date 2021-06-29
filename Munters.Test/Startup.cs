@@ -9,10 +9,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Caching.Memory;
 using Munters.BL.Services;
 using Munters.Core.Interfaces;
 using Munters.Test.Interfaces;
 using Munters.Test.Services;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace Munters.Test
 {
@@ -29,6 +31,7 @@ namespace Munters.Test
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMemoryCache();
             services.AddTransient<IGiphyService, GiphyService>();
             services.AddTransient<IGiphyWebService, GiphyWebService>();
             services.AddTransient<IGiphySearchService, GiphySearchService>();
